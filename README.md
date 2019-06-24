@@ -1,10 +1,10 @@
-#Question 
+# Question 
 https://en.wikipedia.org/wiki/Eight_queens_puzzle
 
-#method
+# method
 Backtracing
 
-#Pesudo code
+# Pesudo code
 
 check(): whether conflict in checkboard, if there is, return 0;
 
@@ -19,5 +19,5 @@ backtracing(row,col,num):
 			apply 0
 	return 0 for no col could be applied in this row
 
-#TODO
+# TODO
 ->print all solution
