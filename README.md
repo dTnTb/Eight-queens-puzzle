@@ -15,7 +15,7 @@ Backtracing
 		+ apply one can try backtracing:  
 		+ if backtracing success:  
 			+ return 1  
-		+else  
+		+ else  
 			+ apply 0  
 	+ return 0 for no col could be applied in this row  
 
