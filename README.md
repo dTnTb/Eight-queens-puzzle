@@ -12,12 +12,12 @@ Backtracing
 	+ if can't check():  
 		+ return 0    
 	+ for each col in the row  
-        >> apply one can try backtracing:  
-        >> if backtracing success:  
-        >>> return 1  
-        >> else  
-        	>>> apply 0  
-   > return 0 for no col could be applied in this row  
+		+ apply one can try backtracing:  
+		+ if backtracing success:  
+			+ return 1  
+		+else  
+			+ apply 0  
+	+ return 0 for no col could be applied in this row  
 
 # TODO
 ->print all solution
