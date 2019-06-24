@@ -9,9 +9,9 @@ Backtracing
 * check(): whether conflict in checkboard, if there is, return 0;  
     
 * backtracing(row,col,num):  
-   > if can't check():  
-   		>> return 0    
-   > for each col in the row  
+	+ if can't check():  
+		+ return 0    
+	+ for each col in the row  
         >> apply one can try backtracing:  
         >> if backtracing success:  
         >>> return 1  
